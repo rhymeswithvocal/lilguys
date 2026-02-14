@@ -36,11 +36,15 @@ h1 {
   image-rendering: auto;
 }
 
-.a:link {
-  color: pink
+a:link {
+  color: pink;
 }
 
-.a:hover {
-  color: black
-  background-color: pink
+a:hover {
+  color: black;
+  background-color: pink;
+}
+
+a:visited {
+  color:rgb(7, 99, 165);
 }
